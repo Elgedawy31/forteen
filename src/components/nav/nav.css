@@ -1,0 +1,137 @@
+.nav .delivery {
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 2px 0px;
+}
+.nav {
+  position: relative;
+}
+.search-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  width: 80%;
+  margin: auto;
+}
+.search-dialog input {
+  padding: 15px;
+  background-color: transparent;
+  border: 2px solid white;
+  margin-right: 15px;
+  flex: 1;
+}
+
+.nav .navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 2px 0px;
+}
+.nav .logo {
+  margin: auto;
+  width: fit-content;
+  padding: 15px;
+  max-width: 22%;
+}
+.icon {
+  cursor: pointer;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
+.nav .logo img {
+  width: 100%;
+}
+
+.nav .search {
+  display: flex;
+  gap: 25px;
+}
+
+.lap-show {
+  display: none;
+}
+.lap-hide {
+  display: block;
+}
+
+.links a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  text-transform: capitalize;
+}
+.links a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.links a.active {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.lap-menu {
+  position: absolute;
+  top: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 90%;
+  height: 65vh;
+  z-index: 20000;
+  margin-left: -100%;
+  transition: 0.3s ease;
+
+  padding: 80px 30px;
+}
+
+.open-lm {
+  margin-left: -15px;
+  transition: 0.3s ease;
+}
+
+.lap-menu a {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+}
+
+.lap-menu a.active {
+  background-color: #111;
+}
+
+@media (max-width: 992px) {
+  .nav .logo {
+    max-width: 30%;
+  }
+  .lap-show {
+    display: block;
+  }
+  .lap-hide {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .nav .logo {
+    max-width: 35%;
+  }
+  .search-dialog{
+    width: 100%;
+    padding: 20px;
+  }
+  .search-dialog input{
+    padding: 10px;
+  }
+}

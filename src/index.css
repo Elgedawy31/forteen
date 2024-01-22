@@ -1,0 +1,44 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width:768px){
+  .container{
+      width: 750px;
+  }
+}
+@media (min-width:992px){
+  .container{
+      width: 970px;
+  }
+}
+@media (min-width:1200px){
+  .container{
+      width: 1170px;
+  }
+}
+
+
+::selection{
+  background-color: #333;
+}

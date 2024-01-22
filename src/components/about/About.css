@@ -1,0 +1,18 @@
+.about{
+    box-shadow: rgba(255, 255, 255, 0.06) 0px 2px 4px 0px inset;
+}
+
+.about h3{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 30px 0;
+    text-align: center;
+}
+.about p{
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 70px;
+}

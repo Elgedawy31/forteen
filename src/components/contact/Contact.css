@@ -1,0 +1,23 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.contact h5{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+.contact input{
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid #777;
+    width: 250px;
+    max-width: 250px;
+
+}

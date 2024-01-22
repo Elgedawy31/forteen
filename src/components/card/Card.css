@@ -1,0 +1,31 @@
+.card{
+    margin-bottom: 20px;
+}
+.card img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.card img:hover{
+    transform: scale(1.01);
+    transition: 0.3s ease;
+
+}
+
+.card .name{
+
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+}
+.card .price{
+
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+}
